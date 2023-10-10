@@ -1,0 +1,22 @@
+mkdir -p A3U8XV/bokor/banan
+mkdir -p A3U8XV/bokor/mogyoro
+mkdir -p A3U8XV/fa/korte
+mkdir -p A3U8XV/land/szeder
+mkdir -p A3U8XV/land/kokusz
+mkdir -p A3U8XV/bokor/barack
+cp -r A3U8XV/land/szeder A3U8XV/fa/
+cp -r A3U8XV/bokor/banan A3U8XV/fa/
+mv A3U8XV/bokor/barack A3U8XV/fa/
+mv A3U8XV/land/kokusz/ A3U8XV/fa/
+rm -Rf A3U8XV/land/
+touch A3U8XV/bokor/banan/leiras.txt
+touch A3U8XV/fa/felsorolas.txt
+echo A barack finom. >A3U8XV/bokor/banan/leiras.txt
+echo A barack sárga. >>A3U8XV/bokor/banan/leiras.txt
+echo A barack édes. >>A3U8XV/bokor/banan/leiras.txt
+vi  A3U8XV/fa/felsorolas.txt
+tree A3U8XV/
+find / -type f -name "?e*" | more
+chmod 644 felsorolas.txt
+du . -s
+sort fa/felsorolas.txt
