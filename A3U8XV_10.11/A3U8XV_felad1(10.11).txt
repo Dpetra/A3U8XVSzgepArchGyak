@@ -1,0 +1,30 @@
+mkdir A3U8XV_szgyak
+mkdir A3U8XV_szgyak/lecke3
+cd task
+touch 1.md
+touch 2.md
+mkdir avenger_sevenfolder
+touch dummy.js
+touch filer_episode.mkv
+touch .hidden_file
+mkdir homework
+touch runnable
+touch script.sh
+ls -la
+chmod 664 1.md
+chmod 600 2.md
+chmod 666 dummy.js
+chmod 770 homework
+chmod 755 runnable
+chmod 710 script.sh
+chmod 660 filer_episode.mkv
+
+-rw-r--r-- 1 detra detra    0 Oct 11 19:08 .hidden_file
+-rw-rw-r-- 1 detra detra    0 Oct 11 19:07 1.md
+-rw------- 1 detra detra    0 Oct 11 19:07 2.md
+drwxr-xr-x 2 detra detra 4096 Oct 11 19:07 avenger_sevenfolder
+-rw-rw-rw- 1 detra detra    0 Oct 11 19:07 dummy.js
+-rw-rw---- 1 detra detra    0 Oct 11 19:08 filer_episode.mkv
+drwxrwx--- 2 detra detra 4096 Oct 11 19:08 homework
+-rwxr-xr-x 1 detra detra    0 Oct 11 19:13 runnable
+-rwx--x--- 1 detra detra    0 Oct 11 19:08 script.sh
