@@ -1,3 +1,0 @@
-mkdir -p gyakorlat/Proba/test/unix
-mkdir -p gyakorlat/Proba/Linux
-mkdir -p gyakorlat/Check/Tmp
