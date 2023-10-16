@@ -1,0 +1,14 @@
+passwd
+man -k .
+pwd
+who, last, who -u, 
+last -n5
+who
+last 
+last -s
+last
+write <username>
+man date
+date +"%Y"
+ctrl c
+clear
