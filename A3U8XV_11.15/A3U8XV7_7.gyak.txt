@@ -1,0 +1,15 @@
+cat people.csv | tail -3
+cat people.csv | head --lines=3
+cat people.csv | grep ";0630"
+cat people.csv | tail -5
+cat people.csv | head --lines=-4
+cat people.csv | head --lines=3
+cat people.csv | head --lines=+2 | head --
+ls -la /dev | tail +4 | head -10
+ls -la /dev | grep " disk" | tail -5
+cat people.csv | grep ";0620" | cut -f 3 -d ';' | head -1
+cat people.csv | tail +2 cut -f 1 -d ';' | sort
+cat people.csv | cut -f 2 -d ';' | cut -f 2 -d '.'
+cat people1.csv | grep -E '+;'
+cat people1.csv | grep -E ',[a-zA-Z ]+$'
+cat people1.csv | grep -E ',[a-zA-Z ]+ [a-zA-Z]+ [a-zA-Z]+;'
